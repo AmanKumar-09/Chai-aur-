@@ -1,7 +1,12 @@
 
-.list{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 56px;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.body{
+    
+}
+
+.custom-underline{
+    text-decoration-color: rgb(206, 53, 206);
 }
